@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame
+CMAKE_SOURCE_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/BullCowGame.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/c
 CMakeFiles/BullCowGame.dir/all:
 	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/depend
 	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BullCowGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BullCowGame"
 .PHONY : CMakeFiles/BullCowGame.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/BullCowGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BullCowGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BullCowGame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BullCowGame.dir/rule
 
 # Convenience name for target.
