@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame
+# Install script for directory: /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

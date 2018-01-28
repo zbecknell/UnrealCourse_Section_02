@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/BullCowGame.dir/main.cpp.o"
+  "CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o"
   "BullCowGame.pdb"
   "BullCowGame"
 )

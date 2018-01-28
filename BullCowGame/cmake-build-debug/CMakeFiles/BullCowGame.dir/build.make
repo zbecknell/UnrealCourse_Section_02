@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame
+CMAKE_SOURCE_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BullCowGame.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/BullCowGame.dir/flags.make
 
 CMakeFiles/BullCowGame.dir/main.cpp.o: CMakeFiles/BullCowGame.dir/flags.make
 CMakeFiles/BullCowGame.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BullCowGame.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BullCowGame.dir/main.cpp.o -c /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BullCowGame.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BullCowGame.dir/main.cpp.o -c /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp
 
 CMakeFiles/BullCowGame.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BullCowGame.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp > CMakeFiles/BullCowGame.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp > CMakeFiles/BullCowGame.dir/main.cpp.i
 
 CMakeFiles/BullCowGame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BullCowGame.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp -o CMakeFiles/BullCowGame.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp -o CMakeFiles/BullCowGame.dir/main.cpp.s
 
 CMakeFiles/BullCowGame.dir/main.cpp.o.requires:
 
@@ -81,17 +81,43 @@ CMakeFiles/BullCowGame.dir/main.cpp.o.provides: CMakeFiles/BullCowGame.dir/main.
 CMakeFiles/BullCowGame.dir/main.cpp.o.provides.build: CMakeFiles/BullCowGame.dir/main.cpp.o
 
 
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o: CMakeFiles/BullCowGame.dir/flags.make
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o: ../FBullCowGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o -c /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.cpp
+
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.cpp > CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.i
+
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.cpp -o CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.s
+
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.requires:
+
+.PHONY : CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.requires
+
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.provides: CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.provides.build
+.PHONY : CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.provides
+
+CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.provides.build: CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o
+
+
 # Object files for target BullCowGame
 BullCowGame_OBJECTS = \
-"CMakeFiles/BullCowGame.dir/main.cpp.o"
+"CMakeFiles/BullCowGame.dir/main.cpp.o" \
+"CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o"
 
 # External object files for target BullCowGame
 BullCowGame_EXTERNAL_OBJECTS =
 
 BullCowGame: CMakeFiles/BullCowGame.dir/main.cpp.o
+BullCowGame: CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o
 BullCowGame: CMakeFiles/BullCowGame.dir/build.make
 BullCowGame: CMakeFiles/BullCowGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BullCowGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BullCowGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BullCowGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +126,7 @@ CMakeFiles/BullCowGame.dir/build: BullCowGame
 .PHONY : CMakeFiles/BullCowGame.dir/build
 
 CMakeFiles/BullCowGame.dir/requires: CMakeFiles/BullCowGame.dir/main.cpp.o.requires
+CMakeFiles/BullCowGame.dir/requires: CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o.requires
 
 .PHONY : CMakeFiles/BullCowGame.dir/requires
 
@@ -108,6 +135,6 @@ CMakeFiles/BullCowGame.dir/clean:
 .PHONY : CMakeFiles/BullCowGame.dir/clean
 
 CMakeFiles/BullCowGame.dir/depend:
-	cd /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles/BullCowGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles/BullCowGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BullCowGame.dir/depend
 

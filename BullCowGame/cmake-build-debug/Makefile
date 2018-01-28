@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame
+CMAKE_SOURCE_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ BullCowGame/fast:
 	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/build
 .PHONY : BullCowGame/fast
 
+FBullCowGame.o: FBullCowGame.cpp.o
+
+.PHONY : FBullCowGame.o
+
+# target to build an object file
+FBullCowGame.cpp.o:
+	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.o
+.PHONY : FBullCowGame.cpp.o
+
+FBullCowGame.i: FBullCowGame.cpp.i
+
+.PHONY : FBullCowGame.i
+
+# target to preprocess a source file
+FBullCowGame.cpp.i:
+	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.i
+.PHONY : FBullCowGame.cpp.i
+
+FBullCowGame.s: FBullCowGame.cpp.s
+
+.PHONY : FBullCowGame.s
+
+# target to generate assembly for a file
+FBullCowGame.cpp.s:
+	$(MAKE) -f CMakeFiles/BullCowGame.dir/build.make CMakeFiles/BullCowGame.dir/FBullCowGame.cpp.s
+.PHONY : FBullCowGame.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BullCowGame"
+	@echo "... FBullCowGame.o"
+	@echo "... FBullCowGame.i"
+	@echo "... FBullCowGame.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

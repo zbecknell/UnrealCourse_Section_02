@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/Zach/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp
+/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.cpp
+FBullCowGame.h
+/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.h
+
+/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.h
+string
+-
+
+/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/main.cpp
 iostream
 -
+FBullCowGame.h
+/Users/zachary/Projects/UnrealCourse/Section_02/BullCowGame/FBullCowGame.h
 
